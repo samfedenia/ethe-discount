@@ -1,0 +1,11 @@
+{
+  "name": "grayscale",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "samfedenia <sam@fedenia.xyz>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^13.5.2",
+    "yahoo-finance": "^0.3.7"
+  }
+}
