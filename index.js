@@ -68,7 +68,7 @@ async function getPriceQuote(symbol) {
 
 async function getBrowserPage(puppeteer, URL) {
   try {
-    const browser = await puppeteer.launch({ headless: false, slowMo: 250 });
+    const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
     await page.goto(URL);
     return [page, browser];
